@@ -1,5 +1,6 @@
 import gulp from 'gulp';
 import babel from 'gulp-babel';
+import plumber from 'gulp-plumber';
 import browserSync from 'browser-sync';
 
 const reload = browserSync.reload;
@@ -22,6 +23,7 @@ gulp.task('html', () => {
 
 gulp.task('javascript', () => {
   return gulp.src('src/scripts/app.js')
+    .pipe(plumber())
     .pipe(babel())
     .pipe(gulp.dest('dest/scripts'))
     .pipe(reload({stream: true}));

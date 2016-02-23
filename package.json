@@ -1,0 +1,27 @@
+{
+  "name": "thinking-in-react",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/shgtkshruch/thinking-in-react.git"
+  },
+  "keywords": [],
+  "author": "shgtkshruch <shgtk.shruch@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shgtkshruch/thinking-in-react/issues"
+  },
+  "homepage": "https://github.com/shgtkshruch/thinking-in-react#readme",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-preset-es2015": "^6.5.0",
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2"
+  }
+}
